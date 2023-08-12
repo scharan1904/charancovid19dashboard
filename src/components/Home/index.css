@@ -1,0 +1,147 @@
+.Home-container {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 3037px;
+  flex-shrink: 0;
+  background-color: #161625;
+}
+
+.searchContainer {
+  display: flex;
+  width: 824px;
+  height: 72px;
+  margin-top: 144px;
+  margin-left: 308px;
+  flex-shrink: 0;
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.06);
+  background-color: #2f2f43;
+  margin-top: 10vh;
+  border-radius: 8px;
+}
+
+.searchIcon {
+  width: 24px;
+  height: 24px;
+  margin-top: 24px;
+  margin-left: 32px;
+  flex-shrink: 0;
+  color: #94a3b8;
+}
+
+.searchInput {
+  color: var(--light-blue-gray-400, #94a3b8);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  border: none;
+  width: 100%;
+  background: none;
+  outline: none;
+  margin-left: 15px;
+}
+
+.headerContainer {
+  width: 979px;
+  height: 142px;
+  margin-top: 120px;
+  margin-left: 230px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirm {
+  color: #ff073a;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirmText {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-bottom: 24px;
+}
+
+.number {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+  margin-top: 30px;
+}
+
+.active {
+  color: #007bff;
+}
+
+.recovered {
+  color: #28a745;
+}
+
+.deceased {
+  color: #6c757d;
+}
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  width: 1146px;
+  height: 2080px;
+  margin-top: 100px;
+  margin-left: 150px;
+  border-radius: 12px;
+  border: 1px;
+
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--light-blue-gray-600, #475569);
+  background: #1e1e30;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
+}
+
+.tableHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.stateContainer {
+  display: flex;
+}
+
+.headerText {
+  color: var(--light-blue-gray-50, #f8fafc);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ascIcon {
+  color: #94a3b8;
+  flex-shrink: 0;
+  line-height: 24px; /* 150% */
+  margin-left: 15px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-color: #475569;
+}
