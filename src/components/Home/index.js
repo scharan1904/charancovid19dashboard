@@ -179,11 +179,14 @@ class Home extends Component {
         const population = data[keyName].meta.population
           ? data[keyName].meta.population
           : 0
-        console.log(keyName)
+        const stateInfo = statesList.find(state => state.state_code === keyName)
+          .state_name
+        console.log(stateInfo)
+        const Name = data[keyName] && stateInfo ? stateInfo : ''
+        // console.log(data[keyName])
         resultList.push({
           stateCode: keyName,
-          name: statesList.find(state => state.state_code === keyName)
-            .state_name,
+          name: Name,
           confirmed,
           deceased,
           recovered,
